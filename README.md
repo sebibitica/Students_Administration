@@ -1,47 +1,46 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/_FtrmUqL)
-# Titlu proiect
-### Sistem pentru Evidenta Studentilor
+# Project Title
+### Student Management System
 
-## Descriere
-Aplicatia este conceputa pentru a ajuta o facultate sau o instituție educațională să gestioneze și să stocheze datele studenților într-un mod eficient și organizat. Această aplicație oferă utilizatorilor posibilitatea de a adăuga, edita, șterge și căuta studenții înregistrați, precum și de a vizualiza informațiile relevante despre aceștia. Totodata este oferita posibilitatea de a nota studentii. Se utilizează un mecanism de manipulare a fișierelor pentru a salva și prelua datele și folosește structuri de date pentru stocarea acestora.
+## Description
+The application is designed to assist a college or educational institution in managing and storing student data efficiently and organized manner. This application provides users the ability to add, edit, delete, and search for registered students, as well as view relevant information about them. Additionally, it allows for grading students. It uses a file handling mechanism to save and retrieve data and employs data structures for storage.
 
-## Obiective
+## Objectives
 
-* Operatiile folosite:
-  - Adaugare Student
-  - Editare Student
-  - Stergere Student
-  - Cautare Student
-* Adaugare Note:
-  - Functionalitatea de adaugare de note pentru Student
-* Interfata Grafica
-  - JavaFX 
-* Baza de Date
-  - Folosim Fisiere
+* Operations included:
+  - Add Student
+  - Edit Student
+  - Delete Student
+  - Search Student
+* Grade Addition:
+  - Functionality to add grades for students
+* Graphical User Interface
+  - JavaSWING
+* Database
+  - MySQL
 
-## Arhitectura
+## Screenshots
+![Screenshot 1](screenshots/output.png)
+![Screenshot 2](screenshots/db_screenshot.png)
 
-![Alt text](documentatie-ghid-utlizare-raport/arhitectura.png)
+## Features/Usage Examples
+* Add Student:
+    - Users can input the details of a new student, including name, specialization, and grades.
 
+* Edit Student:
+    - There is an option to modify the details of an existing student, including name, specialization, and grades.
 
-## Functionalitati/Exemple utilizare
-* Adăugare Student:
-    - Utilizatorul poate introduce datele unui nou student, inclusiv nume, specializare și notele acestuia.
+* Delete Student:
+    - Users can remove a student from the database.
 
-* Editare Student:
-    - Există opțiunea de a modifica datele unui student existent, inclusiv numele, specializarea și notele.
+* Search Student:
+    - It is possible to search for a student by name or other criteria to quickly access information about them.
 
-* Ștergere Student:
-    - Utilizatorul poate elimina un student din baza de date.
+* View Student Information:
+    - Users can view complete details of a student, such as name, specialization, and grades.
 
-* Căutare Student:
-    - Se poate căuta un student după nume sau alte criterii pentru a accesa rapid informațiile despre el.
+* Add Student Grades:
+    - Users (Professors) can manually input grades for students.
 
-* Vizualizare Informații Student:
-    - Utilizatorul poate vizualiza detaliile complete ale unui student, cum ar fi nume, specializare și note.
-      
-* Adaugare Note Student:
-    - Utilizatorul(Profesorul) poate introduce manual in sistem note pentru student.
-      
-* Stocare Date în Fișiere:
-    - Toate datele studenților sunt salvate în fișiere pentru păstrarea acestora între sesiuni.
+* Data Storage in Files:
+    - All student data is saved in files for preservation between sessions.
+
