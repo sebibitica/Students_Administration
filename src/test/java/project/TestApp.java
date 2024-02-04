@@ -14,7 +14,7 @@ import java.util.List;
 
 public class TestApp {
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/studentsapp";         private static final String DB_PASSWORD = "Bitica890*!";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/studentsapp";         private static final String DB_PASSWORD = "root";
     private static final String DB_USER = "root";
 
     @Test

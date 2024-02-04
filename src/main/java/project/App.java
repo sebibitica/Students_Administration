@@ -26,7 +26,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         try {
             // Establish database connection
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentsapp", "root", "Bitica890*!");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentsapp", "root", "root");
             StudentDAO studentDAO = new StudentDAO(connection);
 
             // Load the FXML file
